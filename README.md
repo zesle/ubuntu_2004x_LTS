@@ -7,7 +7,7 @@ Our support team is available, feel free to contact us [here](https://zeslecp.co
 
 **Server Requirements:**
 
-*   Ubuntu 20.04 Server or CentOS 7/8 Server
+*   Ubuntu 20.04 / AlmaLinux 8 / RockyLinux 8 and CentOS 7
 *   Minimum 2 GB RAM
 *   10+ GB hard-drive recommended
 *   `root` SSH access to your server
@@ -18,7 +18,7 @@ Our support team is available, feel free to contact us [here](https://zeslecp.co
 
 2.  **Run install command —** Copy-paste the following command into SSH terminal and hit Enter key.
 
-    **Compatible with Ubuntu 20.04 and CentOS 7/8:**  
+    **Compatible with Ubuntu 20.04 / AlmaLinux 8 / RockyLinux 8 and CentOS 7:**  
     `cd /home && sudo curl -o latest -L http://release.zeslecp.com/latest && sudo sh latest`
 
     Hit enter after pasting the installation command. Once the installation is started, wait for the 8-10 minutes for the installation to complete.
