@@ -19859,28 +19859,6 @@ Description: High Performance, lightweight, open source HTTP server
  OpenLiteSpeed Web Server is developed and copyrighted by LiteSpeed Technologies.
 
 Package: zesle-php
-Version: 7.4.29-20
-Architecture: amd64
-Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 39568
-Depends: zesle-php-cli, supervisor, net-tools, certbot, bind9, bind9-utils, dovecot-imapd, dovecot-pop3d, exim4, exim4-daemon-heavy, pure-ftpd (>= 2.0.49), putty-tools, links, zesle-php-fpm, faketime
-Provides: php
-Filename: pool/focal/main/zesle-php_7.4.29-20_amd64.deb
-Size: 9807616
-MD5sum: fcc46534bdd8c3a66e122c6e3b5f7774
-SHA1: 950963e901c9996590e4a9fde204af6bd77e19cc
-SHA256: 6ad9c3b8c604b9d1418fad83c521013151226471f8c3fdb6dae7ab973a90733f
-Section: extra
-Priority: Priority
-Homepage: http://www.php.net/
-Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
- easy for developers to write dynamically generated web pages. PHP also
- offers built-in database integration for several commercial and
- non-commercial database management systems, so writing a
- database-enabled webpage with PHP is fairly simple. The most common
- use of PHP coding is probably as a replacement for CGI scripts.
-
-Package: zesle-php
 Version: 7.4.29-21
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
@@ -19946,23 +19924,27 @@ Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
  database-enabled webpage with PHP is fairly simple. The most common
  use of PHP coding is probably as a replacement for CGI scripts.
 
-Package: zesle-php-cli
-Source: zesle-php
-Version: 7.4.29-20
+Package: zesle-php
+Version: 7.4.29-25
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 48655
-Depends: zesle-php, libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
-Filename: pool/focal/main/zesle-php-cli_7.4.29-20_amd64.deb
-Size: 8293304
-MD5sum: 8712f4a0256b6849dffae8586f85ab2e
-SHA1: 7be26efca81ccc246a433be01283cb787ec8c90a
-SHA256: cdeda1daa9d9b87861934e37965eaef5539c0b07006249e78075d7c2ebdd941f
+Installed-Size: 39568
+Depends: zesle-php-cli, supervisor, net-tools, certbot, bind9, bind9-utils, dovecot-imapd, dovecot-pop3d, exim4, exim4-daemon-heavy, pure-ftpd (>= 2.0.49), putty-tools, links, zesle-php-fpm, faketime
+Provides: php
+Filename: pool/focal/main/zesle-php_7.4.29-25_amd64.deb
+Size: 9807632
+MD5sum: 4f681a5a42f087c3fcfd32ab8600ba6d
+SHA1: 2ede1f701aaa40fd87a8e4ae0e1ba69a2bb55579
+SHA256: c9dd9847e65778769256a6589920f6f2c9bb5c4a612d63e9296663977436adc8
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
-Description: The php-cli package contains the command-line interface
- executing PHP scripts, /usr/bin/php, and the CGI interface.
+Description: PHP is an HTML-embedded scripting language. PHP attempts to make it
+ easy for developers to write dynamically generated web pages. PHP also
+ offers built-in database integration for several commercial and
+ non-commercial database management systems, so writing a
+ database-enabled webpage with PHP is fairly simple. The most common
+ use of PHP coding is probably as a replacement for CGI scripts.
 
 Package: zesle-php-cli
 Source: zesle-php
@@ -20018,24 +20000,23 @@ Homepage: http://www.php.net/
 Description: The php-cli package contains the command-line interface
  executing PHP scripts, /usr/bin/php, and the CGI interface.
 
-Package: zesle-php-dev
+Package: zesle-php-cli
 Source: zesle-php
-Version: 7.4.29-20
+Version: 7.4.29-25
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 5636
-Depends: autoconf (>= 2.63), automake (>= 1.11), libpcre2-dev (>= 10.30), libssl-dev, pkg-config, zesle-php-cli (>= 7.4.29-20)
-Filename: pool/focal/main/zesle-php-dev_7.4.29-20_amd64.deb
-Size: 599868
-MD5sum: 0d952435fa7e480f6800c528cd7a83e8
-SHA1: b7cda5a0c7b48a8e919759e748780c80599b415e
-SHA256: 0c1e41a78950f9f66b1169e62db32a73492d31da654ccf765ad9f8a7c1b059b7
+Installed-Size: 48683
+Depends: zesle-php, libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
+Filename: pool/focal/main/zesle-php-cli_7.4.29-25_amd64.deb
+Size: 8299576
+MD5sum: b602f9460c005267e5795010a5d356cd
+SHA1: 28471c66d1ab6decfa15fe0a9058c7ec855d45a4
+SHA256: 85b95365b92afc26e288b037a102543e85f80ee13e38d3eff730939af3ee358b
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
-Description: The zesle-php-devel package contains the files needed for building PHP
-    extensions. If you need to compile your own PHP extensions, you will
-    need to install this package.
+Description: The php-cli package contains the command-line interface
+ executing PHP scripts, /usr/bin/php, and the CGI interface.
 
 Package: zesle-php-dev
 Source: zesle-php
@@ -20094,24 +20075,24 @@ Description: The zesle-php-devel package contains the files needed for building 
     extensions. If you need to compile your own PHP extensions, you will
     need to install this package.
 
-Package: zesle-php-fpm
+Package: zesle-php-dev
 Source: zesle-php
-Version: 7.4.29-20
+Version: 7.4.29-25
 Architecture: amd64
 Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
-Installed-Size: 24152
-Depends: libmagic1, zesle-php-cli, mime-support, procps, systemd | systemd-tmpfiles, tzdata, ucf, libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libsystemd0, libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
-Filename: pool/focal/main/zesle-php-fpm_7.4.29-20_amd64.deb
-Size: 4082560
-MD5sum: c23d18149ee8e2a14eb504d0ae8f4554
-SHA1: 11d4d6ff408e11ade9a4305303608aedbd3c5c9c
-SHA256: 7ee5000aa6a8d5698a0171d1336499ace181a71bb95aa6b9642cb392e67ce4b4
+Installed-Size: 5636
+Depends: autoconf (>= 2.63), automake (>= 1.11), libpcre2-dev (>= 10.30), libssl-dev, pkg-config, zesle-php-cli (>= 7.4.29-25)
+Filename: pool/focal/main/zesle-php-dev_7.4.29-25_amd64.deb
+Size: 599900
+MD5sum: e764c43a9aacbcb55949781ad97a7fdb
+SHA1: d7efb628110af56e84b93ef78b5416c1a6b6c835
+SHA256: 2e1902efdd16509fd9cbcb2983f2346ac23356cee5b753ebaa96727bf720cfe2
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/
-Description: PHP-FPM (FastCGI Process Manager) is an alternative PHP FastCGI
-    implementation with some additional features useful for sites of
-    any size, especially busier sites.
+Description: The zesle-php-devel package contains the files needed for building PHP
+    extensions. If you need to compile your own PHP extensions, you will
+    need to install this package.
 
 Package: zesle-php-fpm
 Source: zesle-php
@@ -20163,6 +20144,25 @@ Size: 4080596
 MD5sum: 1afc746dafd9cd24bebda85cb9ce6e0f
 SHA1: 46d228978454de25400fec1f3203001d8fa8e600
 SHA256: 5bb706bf57fce22c498cd963f54d52971b6143ba7466a669099e003963f84a35
+Section: extra
+Priority: Priority
+Homepage: http://www.php.net/
+Description: PHP-FPM (FastCGI Process Manager) is an alternative PHP FastCGI
+    implementation with some additional features useful for sites of
+    any size, especially busier sites.
+
+Package: zesle-php-fpm
+Source: zesle-php
+Version: 7.4.29-25
+Architecture: amd64
+Maintainer: Surjit Sidhu <mail@surjitsidhu.com>
+Installed-Size: 24172
+Depends: libmagic1, zesle-php-cli, mime-support, procps, systemd | systemd-tmpfiles, tzdata, ucf, libapparmor1 (>= 2.7.0~beta1+bzr1772), libargon2-1 (>= 0~20171227), libaspell15 (>= 0.60.8), libbz2-1.0, libc-client2007e, libc6 (>= 2.29), libcurl4 (>= 7.56.1), libedit2 (>= 3.1-20160903-0), libenchant1c2a (>= 1.6.0), libfreetype6 (>= 2.2.1), libgcc-s1 (>= 3.0), libgmp10, libicu66 (>= 66.1-1~), libjpeg8 (>= 8c), libldap-2.4-2 (>= 2.4.25), libodbc1 (>= 2.3.1), libonig5 (>= 6.8.1), libpng16-16 (>= 1.6.2-1), libsnmp35 (>= 5.8+dfsg), libsqlite3-0 (>= 3.14.0), libssl1.1 (>= 1.1.0), libstdc++6 (>= 4.9), libsystemd0, libtidy5deb1 (>= 1:5.2.0), libwebp6 (>= 0.5.1), libxml2 (>= 2.9.0), libxpm4, libxslt1.1 (>= 1.1.25), libzip5 (>= 1.5.0), zlib1g (>= 1:1.1.4)
+Filename: pool/focal/main/zesle-php-fpm_7.4.29-25_amd64.deb
+Size: 4085940
+MD5sum: 8495e886beb207fd7862c57986431d0a
+SHA1: a23ef5523940dcb4f74fbfaa2397797cbfe94530
+SHA256: fa75adfc113f93284fed21b1481a20e306189fd1bf57f2b5f23cc8b3901beaf1
 Section: extra
 Priority: Priority
 Homepage: http://www.php.net/

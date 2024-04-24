@@ -9,38 +9,38 @@ Codename: all
 Architecture: amd64
 Component: main
 Description: ZesleCP All 
-Date: Sun, 09 Apr 2023 07:07:51 +0000
+Date: Wed, 24 Apr 2024 05:56:19 +0000
 MD5Sum:
- b71ed3ddb7db5359dbadbe04dbffbec1              182 Release
+ fb0c7b34f508539684542667d1c8c060              182 Release
  62f3bfde80d5107170eb72c5419589a7             7719 main/binary-amd64/Packages
  1a7e1d10a824933b68c292b8fd4701a1             3059 main/binary-amd64/Packages.bz2
- 4623e934a3cafa1fedb758c9ee815eb1             2862 main/binary-amd64/Packages.gz
+ 7d56cf50fdf94d30a1c9ea3cb6730af0             2862 main/binary-amd64/Packages.gz
 SHA1:
- 6e5d2de5f64b4aba368ee79cc49e97e4f07011c7              182 Release
+ e90d67d8bf41dc0c318757427ec33e328b58f8c5              182 Release
  a739bcfecb454040215da67d718c7d361646bf08             7719 main/binary-amd64/Packages
  d9d3ba8c715af6ba7708d957f0b03e250390bc8a             3059 main/binary-amd64/Packages.bz2
- 12e963af1aee11e28cbb0413505e9d4dde579289             2862 main/binary-amd64/Packages.gz
+ 9a4ffcfd624f67dd594c9b4fd37f31ca6f71b01e             2862 main/binary-amd64/Packages.gz
 SHA256:
- 2896c6b95c3d699e9b4017d3d4ed7ec48bc256517fbdde532e5850298f73dad0              182 Release
+ 778e4d6e9ce6a371256f81a414eb61b7a5cfd0edfd34ac531836372aad125067              182 Release
  2815dfc2682c1b694d1dd439b94b02c43adad88c4c86092edd8621aeec63da38             7719 main/binary-amd64/Packages
  c8ea33e3565afe96c6179c15d32e96b96d4f663daa0ec76cae1d1b1553461045             3059 main/binary-amd64/Packages.bz2
- caaa9e5c49024795a96f8a3f87c2872671cf00433cdd9e518277d5f217dad478             2862 main/binary-amd64/Packages.gz
+ 0e8452419d788419a559d5dc94b49b430a97878e94fbb087ef5bf46a3c324ece             2862 main/binary-amd64/Packages.gz
 SHA512:
- 7292f63b10d65a6fcd98b9fdd3441671512d311419140664a88938f7b38e5466926598383d7a424ea3852aa354d3ad18648e3f3d618d6cbfe388f40989866856              182 Release
+ 39e8a4413d14aadb0b17492060c37b19ba336f198ea4a2986da3472ee616883201e4a8f9dba8bd2ab1c91630b2f8b339ae615e63069fa3f363120faeaa208301              182 Release
  bf116314574cacde17216dd3d09423adcc17d79aacac141318f82420c1026bb7cc61c55e3b6732f322320ee0965caf0f71b576f41ed167f5ae18f120483df17c             7719 main/binary-amd64/Packages
  06e1281ba1565da976491f3e668c8b43d2e4d16c1ea31eb2ee596697bd6813ad9614352813d834699486c9a855fa00186e3e6261de0e2efee9d5346465648a54             3059 main/binary-amd64/Packages.bz2
- 6b08e84c89cc160002870c6f6547c4824d0ad972916168a0c2fd3434529463e232225f8531da6c198e02cdb8444cd691a5797a90b8dd9a5df094b983e478d462             2862 main/binary-amd64/Packages.gz
+ 4613213bf2f77578bed15988282b31182e00bc00068b8573227ff3a58a9ec309414f947a98f3f755ef56a8c9674ae92f6d9dcbef643115bb989b8df3070ed391             2862 main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEE031QYQOc5wN/QymIWl7FNN5scMFAmQyZEcACgkQIWl7FNN5
-scMnGQv9EO8o+At3vp3ESKqT0X3Cg3p+Y5AZjJ3i21xWD0SoSn5b/tO/PZxsWL9t
-uzzgHVyCCF0ZYidfa0AprNukXVWxh9EIQyK+dl5lObsezk88NgL1gT1SapdLLqTX
-RaIomERMkXkp7nX7zzNnSCLu9M/ZIntYTYVp605WIfKHXl8khlOO/gdOonTr4GFB
-NbAdq6wlUC7/wdjt+Hyllg3jqkOPo9RROlIcIVnjmcxsWkxDxBV/5eP7RtL1P9MJ
-cZ5KwJJSlH+XWBhn/VEcClmadIEfBksfBujlusCHER6MQEPXo+pH2j51RrB57Z8F
-rx4i+6BzdB0OAkPJwh54cW1uY9fV6xl/G+i3vgAj0tSLGiMpdH9CtScYT8mNz7Vb
-cTpVsvfQdZyjDMnsmQLeBWlI8ISuapZSsxnEwzR53+B1dKd/8LVn7XH/g7Uk9voV
-tqHLkcKDTL+Mul+eul5WZwmkyF9VSN1x1m20dGEV2xq1BFq23GGU+g+c0WWYB7ll
-qqmujveT
-=BrNK
+iQGzBAEBCgAdFiEEE031QYQOc5wN/QymIWl7FNN5scMFAmYonwMACgkQIWl7FNN5
+scPJagv/eeP3dXK3q3E0AkVPPCJduG2Yxi6OJB/fQxU6Rtuw9LB4GGcQFzw4WnFL
+Z6/DUpv9gnsa5ECcE2giOK4z9eHUqPHzKQXCj9JW7IkFm71Zu950pgjekWVEzqXq
+/PxMCM89C/qzOY2bWuXACNegJ6ZWdJgtoxU7uUc3N/ygNf4vko3LYw8HjA69Px8D
+SSUhOtAZWrCk9bJURWbSEr5WpKTYLcfUTHWPV6gC1L3pn+gmvdGPB49p8V+6x0UH
+9SK6qbbTby+a40+YbHJSdTqiJ+PJrojXb1mC+OpRbM0dnmei1JRubXSaQkwM/MpY
+UyKDP+lt4s4LZtjXjTWT5leNmwRZFgLKqFwIbxx7+VEOWa/6wnnI2oKVxcJUD/Sa
+rB8jJxfKp5qQUwDjKmIMom/H/sZzl2owQbVxsr9qjgCrL3KKRWl6bvk/7snV6vK0
++UUVdHOGJAXaZgmhRw7hvx8wKG1ni3mfaq14QRZt5vgXpqILMjKAquNSt+RMg9IX
+l5Dv96Jk
+=A8MY
 -----END PGP SIGNATURE-----
