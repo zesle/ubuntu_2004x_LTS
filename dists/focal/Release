@@ -6,24 +6,24 @@ Codename: focal
 Architecture: amd64
 Component: main
 Description: ZesleCP Focal 
-Date: Sun, 28 Apr 2024 05:36:13 +0000
+Date: Tue, 30 Apr 2024 04:30:23 +0000
 MD5Sum:
- 943852fc24e900d20aef131da97c3d23              188 Release
- a95d54393ea34a8a644d3b4406698508           771241 main/binary-amd64/Packages
- cf2df91ba6d921b3258d495c55c35d49           108937 main/binary-amd64/Packages.bz2
- de658215444d4ea21d23c6ebcbe03b55           144322 main/binary-amd64/Packages.gz
+ da39a6689407c54ecb526e6bf2294d89              188 Release
+ dbf51f6f5b468f33503cb90ad97ccb12           766830 main/binary-amd64/Packages
+ af24766d1ffabfb378e1b9fe3b9ae6ea           108453 main/binary-amd64/Packages.bz2
+ 3b253a1f40264aa8afcf84aca4d1e42e           143887 main/binary-amd64/Packages.gz
 SHA1:
- 03fc342d31283c1c1772b3af953a85b7cc4ab2b6              188 Release
- 143899490be547f8450b61877401b1d2259721d9           771241 main/binary-amd64/Packages
- 4d55647ec09ddfb2429b5fb3087e0774917a605b           108937 main/binary-amd64/Packages.bz2
- a62ac91d888ce5e3b78b2d40a0c2a0e928c953bd           144322 main/binary-amd64/Packages.gz
+ aa89f93e0ec4f9755e1628d968f6d7146ad630b7              188 Release
+ a0b8587bf572000fd11719e809e91f76719ebabe           766830 main/binary-amd64/Packages
+ 1e307f0555b965eb0b4068a6d8f7b893e67a74bb           108453 main/binary-amd64/Packages.bz2
+ ff1cf59aa7ef55342a9445ff56b63dfe1ccb35e9           143887 main/binary-amd64/Packages.gz
 SHA256:
- 98c62edbe4c18e276c8211cbad4df4def7866abed1a2132b27d32bef68b14364              188 Release
- 3b1d1fb6dfa1f67c5f3aab526670dc1474d3b3fe71f44886ac56b67800f44ab3           771241 main/binary-amd64/Packages
- d7e8087955ac281f0e2b3fdc250987b0c5061074f4780bf3ff7c56e5d99fe330           108937 main/binary-amd64/Packages.bz2
- 0f0f42290f8ef99ccfa2f4fdc75c90a6817ba9e1623f2946c1628cd31b82a67a           144322 main/binary-amd64/Packages.gz
+ c9ba0e813ec119ec5e53273d40c775734f720bacb7158b33c303681fd77f2b2d              188 Release
+ 5d05b117215994aee63671fc14429da1655903632caee25d770cdffc762a64fb           766830 main/binary-amd64/Packages
+ a44544e3fc16026d747013625f9ab60ddb788db319e0f77233401d45ecbcb4e5           108453 main/binary-amd64/Packages.bz2
+ e8b4a7734cc00e41cf72fdafe520f9e27b13ba0a718f38bec6594a5ba3c60346           143887 main/binary-amd64/Packages.gz
 SHA512:
- 19f058a784e8162bd0a87bae916cf7733364f217e3ba500ea2052d513a086a81f98986cdf60e3992f0fd483aa373a788c790d7bc91672691c2b1bbcb15abb52c              188 Release
- f7bd5aa8b1ed3fa955a2dd4096bed6d087d59b1420f70c7f55f66f3ffb4676c9af7d1c510eed876345a1e2443559e38ddde87dce025328cb5691a5085f468ab3           771241 main/binary-amd64/Packages
- 5598a5b82ce85a4c4e6dbf60148e96ac77b62ea1f0f8091fc372ceab5d674d5a897a4b587f0da110415c4bef6c7204c91d4c75d792ec96e668d5a1ef7c723869           108937 main/binary-amd64/Packages.bz2
- 9e70b5b503a6038de38327b2dec4286b6ba23b3365f4d530f2266d7f7b6dce0599c735f220e0a249fff8af6ee5287d8ef674263dfc3530930862f009683763c4           144322 main/binary-amd64/Packages.gz
+ abb2351f067f87257bc607472494829755f62c8caf53a4721a95e80eef92e4f41bcdefa747a865c10074abafc1f72efca1b9c06e2667435e9798639a1c568c1e              188 Release
+ cbe80596746c3f696c07c440aa101c7333f6417fa6a541cb1a3d3403175c54c924abc3dd56e95fc4cbd3074c8df451eb6d74181990993141c9a9e28840efc2c8           766830 main/binary-amd64/Packages
+ 2d9455d4d159747b2eb4f65ba77c7f8ba0b37d6728229b4b928909ca4a108b93333941061f30939b5c7a0f9754cfaeb916fa154289ed73999b69108752c757bc           108453 main/binary-amd64/Packages.bz2
+ f3f75c5d3a713a468910f13900b68c9dbb95ad51f081267fdf72dff3f226f44f5c305ec4cd61b1cfc0b2f6bd49988b2d33816f882c01e039b50828b35f539cbf           143887 main/binary-amd64/Packages.gz
